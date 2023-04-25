@@ -227,7 +227,7 @@ public class Register extends javax.swing.JFrame {
                 pst.setString(2,Password.getText());
                 int row = pst.executeUpdate();
                 JOptionPane.showMessageDialog(this, "User Added");
-                new MainForm().setVisible(true);
+                new MainForm_1().setVisible(true);
                 this.dispose();
             }catch(Exception e){
                 JOptionPane.showMessageDialog(this, e);

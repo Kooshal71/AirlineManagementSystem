@@ -238,7 +238,7 @@ public class Login extends javax.swing.JFrame {
                 this.dispose();
             }    
             else if(Password.getText().equals(Rs.getString("password"))){
-                new MainForm().setVisible(true);
+                new MainForm_1().setVisible(true);
                 this.dispose();
             }
             else{
